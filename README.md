@@ -5,6 +5,8 @@ A beginner-friendly guide to getting started with Polars in Python, featuring ex
 
 [Polars](https://pola-rs.github.io/polars-book/) is a high-performance DataFrame library designed for Python and Rust. It is optimized for processing large datasets with lightning-fast speed and minimal memory usage. Polars leverages Rust's efficient multi-threaded execution and zero-copy memory management to outperform traditional DataFrame libraries like Pandas in many scenarios.
 
+![Polars parallelization](images/polars.png)
+
 ### Key Features
 - **Lightning-Fast Performance:** Built with Rust, Polars takes advantage of parallelization and vectorized operations to handle millions of rows efficiently.
 - **Lazy Execution:** Polars supports lazy computation, enabling query optimization and faster execution for complex workflows.
